@@ -7,5 +7,5 @@ llm = ChatGroq(
     model="llama-3.3-70b-versatile",
 )
 
-response =llm.invoke("Write about food in 1 line")
+response =llm.invoke("Write about easy food list indian after vomit")
 print(response.content)
